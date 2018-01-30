@@ -1,0 +1,34 @@
+body {
+    color: rgb(116, 115, 115);
+
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+  .profile2 {
+      width: 45%;
+      text-align: left;
+  
+  }
+  .profile {
+      width: 45%;
+      text-align: right;
+  }
+
+  .info , .info2, .info3{
+      font-family: "PT Sans";
+      font-size: 14px;
+  }
+  .title, .title2 {
+      font-family: "Oswald";
+      margin-bottom: -10px;
+  }
+  .info2 {
+      margin-bottom: -10px;
+      font-style: italic;
+  
+  }
