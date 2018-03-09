@@ -1,13 +1,18 @@
-body {
-    color: rgb(116, 115, 115);
+
 
 }
+.info {
+    color: black;
+}
+
 
 .resume {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-content: space-around;
+    overflow: scroll;
+    height: 900px;
 }
   .profile2 {
       width: 45%;
@@ -26,6 +31,7 @@ body {
   .title, .title2 {
       font-family: "Oswald";
       margin-bottom: -10px;
+      color: #3A9FFF;
   }
   .info2 {
       margin-bottom: -10px;

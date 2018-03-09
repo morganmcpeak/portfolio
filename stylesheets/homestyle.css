@@ -59,6 +59,47 @@
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+.clouds {
+    position: relative;
+}
+.cloud {
+    height: 95px;
+    width: auto;
+}
+#webcloud {
+    position: absolute;
+}
+#printcloud {
+    position: absolute;
+    left: 130px;
+    top: 20px;
+    height: 110px;
+    width: auto;
+}
+#contactcloud {
+    position: absolute;
+    top: 160px;
+    left: 2px;
+}
+#musiccloud {
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    width: 150px;
+    height: auto;
+}
+#resumecloud {
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    height: 120px;
+    width: auto;
+}
+#uxcloud {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
 
  @media screen and (min-width: 400px) {
     .head {

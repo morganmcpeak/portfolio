@@ -1,5 +1,5 @@
 body {
-    background-color: #EFF2D3;
+  background-color: #B3FEE1;
 }
 
 * {
@@ -8,29 +8,56 @@ body {
 
 .nav {
     width: 95%;
-    height: 20px;
-    background-color: #C0CA56;
-    margin: 1rem;
+    height: 35px;
+    background-color: #3A9FFF;
+    margin: 0 auto;
+    margin-bottom: 10px;
     border-radius: 5px;
     position: relative;
     padding: 10px;
-    text-align: right;
-    
+    text-align: right;  
+  }
+#web {
+  height: 100px;
+  width: auto;
+}
+#resume {
+  height: 100px;
+  width: auto;
+}
+#contact {
+  height: 100px;
+  width: auto;
+}
+#ux {
+  height: 100px;
+  width: auto;
+}
+#print {
+  height: 130px;
+  width: auto;
+}
+  .morgan {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    left: 10px;
+    top: 3px;
   }
   .btn {
       border-radius: 0px;
       font-size: 14px;
-       padding: 10px 11px 5px 11px; 
-      background-color: #C0CA56;
+       padding: 14px 18px 10px 18px;
+       background-color: #3A9FFF;
       border: none;
       position: absolute;
       right: 10px;
-      top: 0px;
+      top: 5px;
       font-family: sans-serif;
       color: rgb(116, 115, 115);
   }
 .btn:hover {
-    background-color: #9AA349;
+    background-color: #B3FEE1;
 }
 
 
@@ -46,22 +73,24 @@ body {
     display: none;
     position: absolute;
     right: 10px;
-    top: 26px;
+    top: 40px;
     text-align: right;
   }
 
   li {
-    padding: 10px 0px;
+    padding: 12px 0px;
     text-align: right;
-    background-color: #C0CA56;
+    background-color: #3A9FFF;
   }
 
   li a {
     text-decoration: none;
-    color: rgb(116, 115, 115);
     padding: 9px;
+  }
+  li a:hover {
+    color: #3A9FFF;
   }
 
   li:hover {
-    background-color: #9AA349;
+    background-color: #B3FEE1;
   }
