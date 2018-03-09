@@ -1,0 +1,39 @@
+
+.phones {
+    width: 300px;
+    height: 600px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.phone {
+    height: 370px;
+    width: auto;
+}
+#ffd {
+    margin-left: 11px;
+}
+#ipadhome {
+    margin-left: 4px;
+}
+.container {
+    text-align: center;
+    margin: 0 auto;
+    overflow: scroll;
+}
+ @media screen and (min-width: 450px) { 
+
+ .phones {
+        height: 900px;
+        display: inline;  
+        flex-direction: row;
+        margin-left: 0px;
+        margin-right: 0px;     
+ }
+.phone {
+        height: 600px;
+        width: auto;
+
+ }
+}
+ 

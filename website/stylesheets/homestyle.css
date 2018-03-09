@@ -1,0 +1,146 @@
+
+.brain {
+    display: none;
+}
+.brainparts {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    right: 540px;
+    bottom: 310px;
+}
+.words {
+    height: 75%;
+    width: auto;
+    z-index: 1;
+    display: none;
+}
+
+
+.head {
+    width: 310px;
+    height: auto;
+}
+#morg {
+    position: relative;
+    top: 335px;
+    left: 545px;
+}
+#anmc {
+    position: relative;
+    bottom: 40px;
+    left: 598px;
+    z-index: 1;
+}
+#peaks {
+    position: relative;
+    bottom: 413px;
+    left: 655px;
+}
+#por {
+    position: relative;
+    bottom: 762px;
+    left: 540px;
+}
+#tfo {
+    position: relative;
+    bottom: 1124px;
+    left: 587px;
+}
+#lio {
+    position: relative;
+    bottom: 1482px;
+    left: 647px;
+}
+.brainbox {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.clouds {
+    position: relative;
+}
+.cloud {
+    height: 95px;
+    width: auto;
+}
+#webcloud {
+    position: absolute;
+}
+#printcloud {
+    position: absolute;
+    left: 130px;
+    top: 20px;
+    height: 110px;
+    width: auto;
+}
+#contactcloud {
+    position: absolute;
+    top: 160px;
+    left: 2px;
+}
+#musiccloud {
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    width: 150px;
+    height: auto;
+}
+#resumecloud {
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    height: 120px;
+    width: auto;
+}
+#uxcloud {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+
+ @media screen and (min-width: 400px) {
+    .head {
+        width: 500px;
+        height: auto;
+    }
+    .words {
+        height: 120%;
+        width: auto;
+    }
+    #morg {
+        position: relative;
+        top: 45px;
+        left: 330px;
+    }
+    #anmc {
+        position: relative;
+        bottom: 552px;
+        left: 415px;
+        z-index: 1;
+    }
+    #peaks {
+        position: relative;
+         bottom: 1145px; 
+        left: 509px;
+    }
+    #por {
+        position: relative;
+        bottom: 1703px;
+        left: 322px;
+    }
+    #tfo {
+        position: relative;
+        bottom: 2280px;
+        left: 398px;
+    }
+    #lio {
+        position: relative;
+        bottom: 2849px;
+        left: 495px;
+    }
+
+} 
+

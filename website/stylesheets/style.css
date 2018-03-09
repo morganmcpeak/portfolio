@@ -1,0 +1,96 @@
+body {
+  background-color: #B3FEE1;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.nav {
+    width: 95%;
+    height: 35px;
+    background-color: #3A9FFF;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+    text-align: right;  
+  }
+#web {
+  height: 100px;
+  width: auto;
+}
+#resume {
+  height: 100px;
+  width: auto;
+}
+#contact {
+  height: 100px;
+  width: auto;
+}
+#ux {
+  height: 100px;
+  width: auto;
+}
+#print {
+  height: 130px;
+  width: auto;
+}
+  .morgan {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    left: 10px;
+    top: 3px;
+  }
+  .btn {
+      border-radius: 0px;
+      font-size: 14px;
+       padding: 14px 18px 10px 18px;
+       background-color: #3A9FFF;
+      border: none;
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      font-family: sans-serif;
+      color: rgb(116, 115, 115);
+  }
+.btn:hover {
+    background-color: #B3FEE1;
+}
+
+
+.drop:hover ul {
+      display: block;
+      z-index: 3;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    text-align: right;
+  }
+
+  li {
+    padding: 12px 0px;
+    text-align: right;
+    background-color: #3A9FFF;
+  }
+
+  li a {
+    text-decoration: none;
+    padding: 9px;
+  }
+  li a:hover {
+    color: #3A9FFF;
+  }
+
+  li:hover {
+    background-color: #B3FEE1;
+  }
