@@ -3,6 +3,10 @@ $("#portfolio").on("click", function(event){
 $("#portfoliodiv").fadeIn(500);
 });
 
+$("#space").on("click", function(event){
+    $("#spacediv").fadeIn(500);
+});
+
 $("#biz").on("click", function(event){
     $("#bizdiv").fadeIn(500);
 });
@@ -21,6 +25,10 @@ $("#poster3").on("click", function(event){
 
 $("#poster4").on("click", function(event){
     $("#poster4div").fadeIn(500);
+});
+
+$("#smflyer").on("click", function(event){
+    $("#smflyerdiv").fadeIn(500);
 });
 
 $("#huron").on("click", function(event){
@@ -162,8 +170,20 @@ $("#ketubah").on("click", function(event){
 $("#funlogo").on("click", function(event){
     $("#funlogodiv").fadeIn(500);
 });
+$("#name").on("click", function(event){
+    $("#namediv").fadeIn(500);
+});
+$("#datenight").on("click", function(event){
+    $("#datenightdiv").fadeIn(500);
+})
 
+$("#banana").on("click", function(event){
+    $("#bananadiv").fadeIn(500);
+});
 
+$("#veggies").on("click", function(event){
+    $("#veggiediv").fadeIn(500);
+})
 $(".x").on("click", function(){
     $(".picturediv").hide();
 });
@@ -178,7 +198,14 @@ $("#peaks").slideDown(1060);
 $("#por").slideDown(1090);
 $("#tfo").slideDown(2010);
 $("#lio").slideDown(2020);
-// $(".head").slideDown(500);
+$(".head").slideDown(500);
 $(".picture").fadeIn(1050);
+
+$(".button").click(function(){
+    $(".form").attr('action',
+    'mailto:mcpeakmorgan@gmail.com?subject=morganmcpeak.com' + 
+    $("#name").val()+ "&body=" + $("#email").val() + "&body=" + $("#whatsup").val() + "&body=");
+    $(".form").submit();
+});
 
 });
