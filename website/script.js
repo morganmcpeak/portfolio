@@ -3,6 +3,20 @@ $("#portfolio").on("click", function(event){
 $("#portfoliodiv").fadeIn(500);
 });
 
+
+$("#date2").on("click", function(event){
+    $("#datediv").fadeIn(500);
+});
+
+$("#sara").on("click", function(event){
+    $("#saradiv").fadeIn(500);
+});
+
+$("#sweetheart").on("click", function(event){
+    $("#sweetheartdiv").fadeIn(500);
+});
+
+
 $("#space").on("click", function(event){
     $("#spacediv").fadeIn(500);
 });
