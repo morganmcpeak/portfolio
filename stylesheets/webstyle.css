@@ -24,7 +24,7 @@
  @media screen and (min-width: 450px) { 
 
  .phones {
-        height: 900px;
+        
         display: inline;  
         flex-direction: row;
         margin-left: 0px;
